@@ -178,6 +178,94 @@ marquee{ font-size: 30px;
         border-radius: 100%;
         padding:10px 20px;
     }
+
+    /* our stories styles */
+.our-stories{ 
+    padding-bottom: 100px;
+    margin-top: 100px;
+    background: url('../assets/bg.png'),linear-gradient(0.00deg,
+    rgba(254, 163, 1, 0.3),
+    rgba(255, 255, 255, 0.3) 100%);
+    
+}
+.stories-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+.stories-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.story-img-1{
+    background: url('../assets/story-1.png'),rgb(217, 217, 217);
+    width: 500px;
+    height: 337px;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+}
+.story-img-2{
+    background: url('../assets/story-2.png'),rgb(217, 217, 217);
+    width: 290px;
+    height: 177px;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+   
+}
+.story-img-3{
+    background: url('../assets/story-2.png'),rgb(217, 217, 217);
+    width: 290px;
+    height: 177px;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+}
+.story-img-4{
+    background: url('../assets/story-2.png'),rgb(217, 217, 217);
+    width: 290px;
+    height: 177px;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+}
+.story-img-5{
+    background: url('../assets/story-2.png'),rgb(217, 217, 217);
+    width: 290px;
+    height: 177px;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.stories-item-1{
+    width: 500px;
+    height: 630px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}   
+.stories-item{
+    width: 290px;
+    height: 305px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+#stories-1{grid-row: span 2;}
+
+.stories-content{ 
+    padding: 20px;
+}
+.btn-view{
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 600px;
+}
 /* small device responsive */
 
 @media screen and (max-width:576px) {
@@ -190,5 +278,13 @@ marquee{ font-size: 30px;
     }
     .nav-list{margin: 0;}
     .banner-content{ text-align: center;}
+    .stories-item-1{
+        display: none;
+    }
+    .stories-container{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 80px;
+        
+    }
     
 }
