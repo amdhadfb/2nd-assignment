@@ -118,6 +118,21 @@
     font-size: 14.00px;
     font-weight: 500;
 }
+.read-1{
+    color: rgb(100, 200, 255);
+    font-size: 15px;
+    font-weight: 700;
+}
+.read-2{
+    color: rgb(240, 170, 0);
+    font-size: 15px;
+    font-weight: 700;
+}
+.read-3{
+    color: rgb(135, 0, 255);
+    font-size: 15px;
+    font-weight: 700;
+}
 .card-item{
     max-width:360px ;
     max-height: 600px;
@@ -127,6 +142,8 @@
     align-items: center;
     padding: 30px;
 }
+
+/* card background styles */
 #card-1{
     background: linear-gradient(180.00deg, rgb(222, 245, 255),
     rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
@@ -148,7 +165,8 @@
     .nav-container,
     .banner,
     .nav-list,
-    .menubar{
+    .menubar,
+    .card-container{
     flex-direction: column;
     }
     .nav-list{margin: 0;}
