@@ -58,6 +58,11 @@
     font-size: 20px;
     font-weight: 700;
 }
+marquee{ font-size: 30px;
+        font-weight: 600;
+        color: #FEA301;
+        margin-top: 30px;
+}
 
 /* banner styles */
 .banner{
