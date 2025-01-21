@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* shared style */
+
+.display-flex{
+    display: flex;
+}
+.home{
+    color: #FEA301;
+}
+.about{
+    color: #01ACFD;
+}
+.facilities{
+    color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+.btn-primary{
+    background-color: #FEA301;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 6px 30px;
+    border: none;
+}
+/* header style */
+
+.nav-container{
+    align-items:  center;
+    justify-content: space-between;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.menubar-container{
+    align-items: center;}
+.list-item{
+    list-style: none;
+    padding: 10px;
+}
+.nav-link{text-decoration: none;}
+
+/* banner styles */
+.banner{
+    max-width:1200px ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.banner-content{
+    max-width: 640px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    color:#111111;
+    margin-bottom: auto;
+}
+.empowering{
+    color: #FEA301;
+}
+.vision{
+    color: #01ACFD;
+}
+.banner-description{
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-enroll{
+    color: white;
+    background-color: #111111;
+    font-size: 20px;
+    border-radius: 10px;
+    padding:10px 50px;
+    border: none;
+}
+
+/* small device responsive */
+@media screen and (max-width:576px) {
+    .nav-container,
+    .banner
+    {
+        flex-direction: column;
+    }
+}
