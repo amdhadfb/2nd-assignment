@@ -41,13 +41,16 @@
     text-align: center;
     margin: 0 auto;
 }
-.menubar-container{
-    align-items: center;}
+/* .menubar-container{
+    align-items: center;} */
 .list-item{
     list-style: none;
     padding: 10px;
 }
-.nav-link{text-decoration: none;}
+.nav-link
+{text-decoration: none;}
+.menubar
+{align-items: center;}
 
 /* banner styles */
 .banner{
@@ -85,10 +88,14 @@
 }
 
 /* small device responsive */
+
 @media screen and (max-width:576px) {
     .nav-container,
-    .banner
+    .banner,
+    .nav-list,
+    .menubar
     {
         flex-direction: column;
     }
+    .banner-content{ text-align: center;}
 }
