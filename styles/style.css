@@ -29,7 +29,7 @@
     color: white;
     font-size: 20px;
     border-radius: 10px;
-    padding: 6px 30px;
+    padding: 6px 50px;
     border: none;
 }
 /* header style */
@@ -41,16 +41,23 @@
     text-align: center;
     margin: 0 auto;
 }
-/* .menubar-container{
-    align-items: center;} */
+.nav-list{
+    margin-right: 200px;
+    font-size: 20px;
+    font-weight: 500;
+}
 .list-item{
     list-style: none;
     padding: 10px;
 }
-.nav-link
-{text-decoration: none;}
-.menubar
-{align-items: center;}
+.nav-link{
+    text-decoration: none;}
+.menubar{
+    align-items: center;}
+.logo-text{
+    font-size: 20px;
+    font-weight: 700;
+}
 
 /* banner styles */
 .banner{
@@ -86,16 +93,65 @@
     padding:10px 50px;
     border: none;
 }
+/* Standard Curriculum  */
+.curriculum-header{
+    font-size: 40px;
+    font-weight: 700;
+}
+.curriculum{
+    background-image: url('../assets/bg.png');
+}
+.card-container{
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;}
 
+.curriculum-header{
+    text-align: center;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.card-description{
+    font-size: 14.00px;
+    font-weight: 500;
+}
+.card-item{
+    max-width:360px ;
+    max-height: 600px;
+    margin: 20px;
+    border-radius: 18px;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+#card-1{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),
+    rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+#card-2{
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),
+    rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+#card-3{
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),
+    rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    }
 /* small device responsive */
 
 @media screen and (max-width:576px) {
     .nav-container,
     .banner,
     .nav-list,
-    .menubar
-    {
-        flex-direction: column;
+    .menubar{
+    flex-direction: column;
     }
+    .nav-list{margin: 0;}
     .banner-content{ text-align: center;}
+    
 }
