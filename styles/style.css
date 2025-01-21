@@ -164,6 +164,20 @@ marquee{ font-size: 30px;
     background: linear-gradient(180.00deg, rgb(238, 225, 255),
     rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
     }
+.next-button{ 
+    text-align:center;
+    margin-top: 50px;    
+}
+.next-left{
+        background-color: #FEA301;
+        border-radius: 100%;
+        padding:10px 20px;
+    }
+.next-right{
+        background-color: #FEA301;
+        border-radius: 100%;
+        padding:10px 20px;
+    }
 /* small device responsive */
 
 @media screen and (max-width:576px) {
