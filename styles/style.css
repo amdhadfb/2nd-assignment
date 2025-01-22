@@ -72,7 +72,11 @@ marquee{ font-size: 30px;
     margin: 0 auto;
 }
 .banner-content{
+    order: 1;
     max-width: 640px;
+}
+.banner-image{
+    order: 2;
 }
 .banner-title{
     font-size: 50px;
@@ -213,6 +217,7 @@ marquee{ font-size: 30px;
     width: 100%;
     height: 177px;
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 16px 16px 0px 0px;
    
 }
@@ -221,6 +226,7 @@ marquee{ font-size: 30px;
     width: 100%;
     height: 177px;
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 16px 16px 0px 0px;
 }
 .story-img-4{
@@ -228,6 +234,7 @@ marquee{ font-size: 30px;
     width: 100%;
     height: 177px;
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 16px 16px 0px 0px;
 }
 .story-img-5{
@@ -235,6 +242,7 @@ marquee{ font-size: 30px;
     width: 100%;
     height: 177px;
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 16px 16px 0px 0px;
 }
 
@@ -281,11 +289,13 @@ marquee{ font-size: 30px;
 
 .footer-container{
     background-color: #01ACFD;
-    height: 500px;
+    height: 550px;
     color: white;
 }
 .about-school li{
     list-style: none;
+    margin-top: 20px;
+    margin-left: -40px;
 }
 .kids-area{
     max-width: 400px;
@@ -315,7 +325,9 @@ marquee{ font-size: 30px;
     flex-direction: column;
     }
     .nav-list{margin: 0;}
-    .banner-content{ text-align: center;}
+    .banner-image{order: 1;}
+    .banner-content{ order:2
+        text-align: center;}
     .stories-item-1{
         display: none;
     }
@@ -328,11 +340,22 @@ marquee{ font-size: 30px;
     .footer{
     margin-left: 0px;
     padding: 0;
-    text-align: center;
-
+    text-align: left;
 }
-    .logo-icon{
-margin-left: 100px;
+.about-school {
+    text-align: left;
+    margin-left: -230px;
 }
-    .keep-touch{margin-top: 0px;}
+.about-school li{
+    align-items: left;
+    margin-left: -40px;
+}
+    
+.keep-touch{
+        margin-top: 0px;
+        margin-left:-200px;
+    }
+.next-button{
+        display: none;
+    }
 }
