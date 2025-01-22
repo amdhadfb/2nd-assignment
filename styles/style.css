@@ -266,6 +266,32 @@ marquee{ font-size: 30px;
     margin-top: 50px;
     margin-left: 600px;
 }
+
+.footer-container{
+    background-color: #01ACFD;
+    height: 500px;
+    color: white;
+
+
+}
+.about-school li{
+    list-style: none;
+}
+.kids-area{
+    max-width: 400px;
+}
+.footer{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    padding: 50px 20px;
+    margin-left: 150px;
+
+}
+.keep-touch{
+    margin-top: -60px;
+}
+
 /* small device responsive */
 
 @media screen and (max-width:576px) {
@@ -273,7 +299,9 @@ marquee{ font-size: 30px;
     .banner,
     .nav-list,
     .menubar,
-    .card-container{
+    .card-container,
+    .footer
+    {
     flex-direction: column;
     }
     .nav-list{margin: 0;}
@@ -286,5 +314,14 @@ marquee{ font-size: 30px;
         margin-left: 80px;
         
     }
-    
+    .footer{
+    margin-left: 0px;
+    padding: 0;
+    text-align: center;
+
+}
+.logo-icon{
+margin-left: 100px;
+}
+.keep-touch{margin-top: 0px;}
 }
