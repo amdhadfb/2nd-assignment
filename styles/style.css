@@ -266,13 +266,23 @@ marquee{ font-size: 30px;
     margin-top: 50px;
     margin-left: 600px;
 }
+.stories-button{
+    border-radius: 48px;
+    background: rgb(60, 216, 232);
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    position: absolute;
+    margin-top: -40px;
+}
+#button-2{ background-color: #5D58F0;}
+#button-green{background-color: #95B226;}
+/* footer styles */
 
 .footer-container{
     background-color: #01ACFD;
     height: 500px;
     color: white;
-
-
 }
 .about-school li{
     list-style: none;
